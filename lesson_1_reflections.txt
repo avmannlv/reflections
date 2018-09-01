@@ -24,11 +24,12 @@ A: Version control
 ***GIT COMMANDS***
 
 - Commit: 	creates a new version of code
-- diff:		looks at the differences between two different commits and shows them
-- diff -u:	Not exactly sure what the difference is.
 - git log: 	shows the different versions of commits done
+	- --
 - scp: 		stands for secure copy and it allows you to securly copy from one computer to another.
-- checkout: 	sets the repository to a different instance of a commit.
+- git checkout: 	sets the repository to a different instance of a commit.
+		- add branch name to make that the working branch.
+		- git checkout -b new_branch_name to make a new branch, name it and switch to it.
 - git init:	initialize a new git repository on a folder.  this does not make a commit, just sets up the files
 - ls:		list out all files in current directory. 
 - ls -a:	lists even hidden files in a directory
@@ -36,3 +37,10 @@ A: Version control
 - touch:	add text file in current directory.
 - rm:		removes files
 - git add:	adds files to the staging area which is eventually used to create a commit.
+- git diff: compares the files in the working directory and the staging area
+	- if used with 2 commits, compares the different between those commits
+- git diff --staged: compares the files in the staging area with the last commit
+- git branch: 	shows current branches
+		- add name after branch to create new branch
+		- -d branchname deletes a branch, but all the commits on that branch are still in the history.  Just deletes the label
+-git merge branch1 branch2: merge branches

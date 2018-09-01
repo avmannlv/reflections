@@ -9,11 +9,16 @@ q: What value do you think it offers?
 a: I guess if you only have a small change or the change only affects a small group of files, it can segragate it so you can tell if a given change has made any difference in the overall functionality of the program
 
 q: How can you use the staging area to make sure you have one commit per logical change?
+a: becuase you are only choosing the files you are making changes too.  If you just grab all of the files, it may have other changes that you forgot about.
 
 q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: when trying out new features of the code, or adding new functionality or versions of code.  Branches would help because it keeps things separate from each other but allows recall at any time.
 
 q: How do the diagrams help you visualize the branch structure?
+a: by showing how modifying anything other than the last version can create code that gets lost from future versions
 
 q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+a: the result combines the features of both branches into one.  It's represented that way since it is combining two branches into one to make one master that includes the features of both branches and all the changes from both branches are present.
 
 q: What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+a: You probably have more control when manually merging and if you have a lot of conflicts, auto merging may not be worth it.
