@@ -44,3 +44,8 @@ A: Version control
 		- add name after branch to create new branch
 		- -d branchname deletes a branch, but all the commits on that branch are still in the history.  Just deletes the label
 -git merge branch1 branch2: merge branches
+- git remote: shows list of remote repo's setup
+	- add NAME_OF_REMOTE URL: adds remote connection to repository.
+	- git remote -v: gives fetch and push URL's to use.
+- git push REMOTE_NAME LOCAL_REPO NAME: send local repo to server.
+- git pull REMOTE_NAME LOCAL_REPO NAME: pull server repo into local enviornment.
