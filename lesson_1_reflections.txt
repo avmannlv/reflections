@@ -1,0 +1,36 @@
+
+***GENERAL NOTES***
+
+Version control helps you revert back to previous versions, but may have limitations on time depending on what 
+you use.
+
+Git affects all files since the program relies on all files to work.  Any changes to any files can create 
+issues so they all need to be tracked.
+
+That was SOOOO not easy.  I still cannot find the option in the new version of GIT to copy and paste, but via 
+trial and error, I realized that the center mouse button pastes into git.
+
+
+***COURSE QUESTIONS***
+
+Q: How might using version control make you more confident to make changes that could break something?
+A: because you can always revert back to a previous version.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for? 
+A: Version control
+
+
+
+***GIT COMMANDS***
+
+- Commit: 	creates a new version of code
+- diff:		looks at the differences between two different commits and shows them
+- diff -u:	Not exactly sure what the difference is.
+- git log: 	shows the different versions of commits done
+- scp: 		stands for secure copy and it allows you to securly copy from one computer to another.
+- checkout: 	sets the repository to a different instance of a commit.
+- git init:	initialize a new git repository on a folder.  this does not make a commit, just sets up the files
+- ls:		list out all files in current directory. 
+- ls -a:	lists even hidden files in a directory
+- git status	shows current status of commit and repo.
+- touch		add text file in current directory.
